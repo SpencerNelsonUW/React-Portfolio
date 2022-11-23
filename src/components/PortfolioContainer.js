@@ -4,6 +4,7 @@ import Contact from './views/Contact';
 import Home from './views/Home';
 import Portfolio from './views/Portfolio';
 import Resume from './views/Resume';
+import Footer from './Footer';
 
 
 
@@ -32,6 +33,7 @@ export default function PortfolioContainer() {
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         {}
         {renderPage()}
+        <Footer/>
       </div>
     );
   }
