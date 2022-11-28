@@ -15,10 +15,11 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"/public/Images/Timer1.jpg"} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Homeward-Bound</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Help lost pets find their way home again.
+
+          https://github.com/bburton5/homeward-bound
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -27,10 +28,11 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Star-Gazer</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Find the perfect night to go star gazing.
+
+          https://github.com/night-hike/star-gazer
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -39,10 +41,11 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Time-Tracker</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Keep track of your time spent on anything, easily.
+
+          https://github.com/SpencerNelsonUW/Time-Tracker
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
