@@ -27,8 +27,15 @@ export default function PortfolioContainer() {
   
     const handlePageChange = (page) => setCurrentPage(page);
   
+    const styles = {
+      all:{
+        height: "100%",
+        overflow: "auto",
+      },
+    };
+
     return (
-      <div>
+      <div style={styles.all}>
         {}
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         {}

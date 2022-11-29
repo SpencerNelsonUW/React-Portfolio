@@ -1,15 +1,27 @@
 import React from "react";
 
+const styles = {
+  resume:{
+    marginLeft:"10%",
+    marginRight:"10%",
+    alignItems:'center',
+    marginTop:"25px",
+  },
+};
+
 export default function Resume() {
   return (
-    <div>
+    <div style={styles.resume} className='d-flex flex-column'>
       <h1>Resume</h1>
 
-      <h4>
+      <h4
+      style={{
+        marginTop:"10px",
+      }}>
         Spencer Nelson Seattle, WA | Spencernelsonn@gmail.com | 206-384-2172
       </h4>
 
-      <div className="">
+      <div style={styles.resume}>
         <div>
           <h4>Education</h4>
           <p>
@@ -64,9 +76,6 @@ export default function Resume() {
           <h4>Characteristics</h4>
           <p>Fast learner Highly Motivated Easy-going</p>
         </div>
-      </div>
-      <div>
-        <p>Resume Download</p>
       </div>
     </div>
   );

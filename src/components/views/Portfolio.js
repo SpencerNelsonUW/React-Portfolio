@@ -2,52 +2,57 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import Timer1 from '../images/Timer1.jpg'
+import Timer2 from '../images/Timer2.jpg'
+import Timer3 from '../images/Timer3.jpg'
 
-// const styles = {
-//   portfolioCard:{
-  
-//   }
-// };
+
+const styles = {
+  portfolio:{
+    marginLeft:"10%",
+    marginRight:"10%",
+  },
+};
 
 export default function Portfolio() {
     return (
-    <div className='d-flex flex-row'>
+    <div className='d-flex flex-row' style={styles.portfolio}>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={"/public/Images/Timer1.jpg"} />
+      <Card.Img variant="top" src={Timer1} />
       <Card.Body>
         <Card.Title>Homeward-Bound</Card.Title>
         <Card.Text>
           Help lost pets find their way home again.
-
-          https://github.com/bburton5/homeward-bound
         </Card.Text>
+        <a href="https://github.com/bburton5/homeward-bound">
         <Button variant="primary">Go somewhere</Button>
+        </a>
       </Card.Body>
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={Timer2} />
       <Card.Body>
         <Card.Title>Star-Gazer</Card.Title>
         <Card.Text>
           Find the perfect night to go star gazing.
-
-          https://github.com/night-hike/star-gazer
         </Card.Text>
+        <a href="https://github.com/night-hike/star-gazer">
         <Button variant="primary">Go somewhere</Button>
+        </a>
       </Card.Body>
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={Timer3} />
       <Card.Body>
         <Card.Title>Time-Tracker</Card.Title>
         <Card.Text>
           Keep track of your time spent on anything, easily.
-
-          https://github.com/SpencerNelsonUW/Time-Tracker
         </Card.Text>
+        <a href="https://github.com/SpencerNelsonUW/Time-Tracker">
         <Button variant="primary">Go somewhere</Button>
+        </a>
       </Card.Body>
     </Card>
     </div>
