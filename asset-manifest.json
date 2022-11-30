@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f9de9544.css",
+    "main.js": "/react-portfolio/static/js/main.cb7c5b68.js",
+    "static/media/Timer3.jpg": "/react-portfolio/static/media/Timer3.44b5746159d2d544e478.jpg",
+    "static/media/Timer2.jpg": "/react-portfolio/static/media/Timer2.a178dfef8a9244db026e.jpg",
+    "static/media/Avatar.jpg": "/react-portfolio/static/media/Avatar.1b4762eb1aa421b85152.jpg",
+    "static/media/Timer1.jpg": "/react-portfolio/static/media/Timer1.60f2cc9d813443926a66.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f9de9544.css.map": "/react-portfolio/static/css/main.f9de9544.css.map",
+    "main.cb7c5b68.js.map": "/react-portfolio/static/js/main.cb7c5b68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9de9544.css",
+    "static/js/main.cb7c5b68.js"
+  ]
+}
