@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card';
 import Timer1 from '../images/Timer1.jpg'
 import Timer2 from '../images/Timer2.jpg'
 import Timer3 from '../images/Timer3.jpg'
-import Timer4 from '../images/Timer4.jpg'
 
 
 const styles = {
@@ -46,19 +45,6 @@ export default function Portfolio() {
 
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Timer3} />
-      <Card.Body>
-        <Card.Title>Time-Tracker</Card.Title>
-        <Card.Text>
-          Keep track of your time spent on anything, easily.
-        </Card.Text>
-        <a href="https://github.com/SpencerNelsonUW/Time-Tracker">
-        <Button variant="primary">Go somewhere</Button>
-        </a>
-      </Card.Body>
-    </Card>
-
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Timer4} />
       <Card.Body>
         <Card.Title>Tiletopia</Card.Title>
         <Card.Text>
