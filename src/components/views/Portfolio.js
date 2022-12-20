@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Timer1 from '../images/Timer1.jpg'
 import Timer2 from '../images/Timer2.jpg'
 import Timer3 from '../images/Timer3.jpg'
+import Timer4 from '../images/Timer4.jpg'
 
 
 const styles = {
@@ -57,7 +58,7 @@ export default function Portfolio() {
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Timer1} />
+      <Card.Img variant="top" src={Timer4} />
       <Card.Body>
         <Card.Title>Tiletopia</Card.Title>
         <Card.Text>
@@ -69,6 +70,7 @@ export default function Portfolio() {
         </a>
       </Card.Body>
     </Card>
+
     </div>
     );
   }
